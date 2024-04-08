@@ -22,9 +22,9 @@
             <!-- Genre -->
 
             Genre :
-            <label for="mas">Masculin<input type="checkbox" id="mas"></label>
-            <label for="fem">Féminin<input type="checkbox" id="fem"></label>
-            <label for="aut">Autre<input type="checkbox" id="aut"></label>
+            <label for="mas">Masculin<input type="radio" name="sx" id="mas"></label>
+            <label for="fem">Féminin<input type="radio" name="sx" id="fem"></label>
+            <label for="aut">Autre<input type="radio" name="sx" id="aut"></label>
 
             <br><br>
 
@@ -57,17 +57,20 @@
 
             <!-- Nationnalité / Date de naissance / Pays de naissance -->
 
-            <label for="nat">Nationnalité : <input type="text" id="nat"></label>
+            <label for="nat">Nationnalité : </label>
+            <select name="nat" id="nat">
+                <option value="n1">Francaise</option>
+                <option value="n2">Belge</option>
+        </select>
             <label for="dat">Date de naissance : <input type="date" id="dat"></label>
             <label for="pays">Pays de naissance : </label>
             <select name="pays" id="pays">
-                <option value="p1">Australie</option>
-                <option value="p2">France</option>
-                <option value="p3">Belgique</option>
-                <option value="p4">Espagne</option>
-                <option value="p5">Portugal</option>
-                <option value="p6">Autriche</option>
-                <option value="p7">Allemagne</option>
+                <option value="p1">France</option>
+                <option value="p2">Belgique</option>
+                <option value="p3">Espagne</option>
+                <option value="p4">Portugal</option>
+                <option value="p5">Autriche</option>
+                <option value="p6">Allemagne</option>
         </select>
 
         <br><br>
