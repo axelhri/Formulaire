@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+</head>
+<body>
+    <fieldset>
+        <form>
+            <!-- Nom / Prénom -->
+
+            <label for="name">Nom : <input type="text" id="name"></label>
+            <label for="name2">Prénom : <input type="text" id="name2"></label>
+            
+            <br><br>
+
+            <!-- Age -->
+
+            <label for="age">Age : <input type="number" id="age" placeholder="0"></label>
+
+            <!-- Genre -->
+
+            Genre :
+            <label for="mas">Masculin<input type="checkbox" id="mas"></label>
+            <label for="fem">Féminin<input type="checkbox" id="fem"></label>
+            <label for="aut">Autre<input type="checkbox" id="aut"></label>
+
+            <br><br>
+
+            <!-- Mail -->
+
+            <label for="mail">E-mail : <input type="email" id="mail"></label>
+
+            <br><br>
+
+            <!-- Adresse postale / Code postale / Ville -->
+
+            <label for="adp">Adresse postale : <input type="text" id="adp" placeholder="Rue / Numéro"></label>
+            <label for="code"><input type="text" id="code" maxlength="5" placeholder="Code postal"></label>
+            <label for="ville"><input type="text" id="ville" placeholder="Ville"></label>
+
+            <br><br>
+
+            <!-- Métier -->
+
+            <label for="met">Métier exercé : </label>
+            <select name="met" id="met">
+                <option value="m1">Aucun</option>
+                <option value="m2">Plombier</option>
+                <option value="m3">Facteur</option>
+                <option value="m4">Mécanicien</option>
+                <option value="m5">Dépanneur</option>
+        </select>
+
+            <br><br>
+
+            <!-- Nationnalité / Date de naissance / Pays de naissance -->
+
+            <label for="nat">Nationnalité : <input type="text" id="nat"></label>
+            <label for="dat">Date de naissance : <input type="date" id="dat"></label>
+            <label for="pays">Pays de naissance : </label>
+            <select name="pays" id="pays">
+                <option value="p1">Australie</option>
+                <option value="p2">France</option>
+                <option value="p3">Belgique</option>
+                <option value="p4">Espagne</option>
+                <option value="p5">Portugal</option>
+                <option value="p6">Autriche</option>
+                <option value="p7">Allemagne</option>
+        </select>
+
+        <br><br>
+
+        <!-- Numéro de sécurité social -->
+
+        <label for="secu">Numéro de sécurité social : <input type="text" id="secu" maxlength="15"></label>
+
+        <br><br>
+
+        <!-- Numéro de passeport / Date de délivrance / Date de validité du passeport -->
+
+        <label for="passp">Numéro du passeport : <input type="text" id="passp" maxlength="9"></label>
+        <label for="datp">Date de délivrance du passeport : <input type="date" id="datp"></label>
+        <label for="datv">Date de validité du passeport : <input type="date" id="datv"></label>
+
+<br><br>
+
+        <!-- Boutton valider -->
+
+        <button>Valider</button>
+
+     </form>
+    </fieldset>
+</body>
+</html>
